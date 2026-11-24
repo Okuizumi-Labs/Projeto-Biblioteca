@@ -6,7 +6,7 @@ plugins {
 
 group = 'br.com.okuizlabs'
 version = '0.0.1-SNAPSHOT'
-description = 'Biblioteca'
+description = 'Projeto-Biblioteca'
 
 java {
     toolchain {
