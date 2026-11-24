@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3879427-7832-6F4D-9A13-EE8D50FED147" name="Estudio">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 19:15:19 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estudio" id="46CC8B9F-1BEB-9C4F-70A4-26C58F7078C1">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 19:15:24 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="68AE8A76-C239-0618-0258-E869272D859E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 19:15:39 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C31542FD-DB72-EEB4-FCC4-5DFADFDAD738" name="Estudio PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 19:15:38 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46CC8B9F-1BEB-9C4F-70A4-26C58F7078C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

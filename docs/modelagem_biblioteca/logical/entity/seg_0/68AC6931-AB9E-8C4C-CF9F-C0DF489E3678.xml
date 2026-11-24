@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68AC6931-AB9E-8C4C-CF9F-C0DF489E3678" name="Obras">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 17:42:40 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_obra" id="9AD3AEEA-4C9A-0B77-0CF5-29B869DDF5EE">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 17:54:45 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4C360843-BEC0-8B47-6781-7E96B3D369D2">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 17:55:15 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>800</dataTypeSize>
+<ownDataTypeParameters>800,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="11A8371D-8C22-2DB0-1C27-F7BAC6EB01B4">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 18:03:50 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50000</dataTypeSize>
+<ownDataTypeParameters>50000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_obra" id="17562BA6-99FA-DB8F-FC00-DB5814D1D123">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 19:59:16 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_lancamento" id="045F954B-4ECB-FB95-7032-883B31242240">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 17:56:08 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FFAE889-3201-30AD-482A-B44AE4633A70" name="Obras PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 17:59:37 UTC</createdTime>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<engineerTo>
+<item key="2166B452-68DF-D46D-60E7-B8F4BC89BCB3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AD3AEEA-4C9A-0B77-0CF5-29B869DDF5EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
