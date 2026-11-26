@@ -35,3 +35,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Modelagem ###
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store
+

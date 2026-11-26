@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8478F20-22D6-380B-BA56-895BF09E7380" name="Obras">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>68AC6931-AB9E-8C4C-CF9F-C0DF489E3678</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_obra" id="49A901D0-BBFE-5424-C52E-30F2C62B9E89">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>9AD3AEEA-4C9A-0B77-0CF5-29B869DDF5EE</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="C2848877-E748-0747-0A79-DA80AE7376E9">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>4C360843-BEC0-8B47-6781-7E96B3D369D2</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>800</dataTypeSize>
+<ownDataTypeParameters>800,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="3D099D62-E658-18C5-6420-65537C754854">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>11A8371D-8C22-2DB0-1C27-F7BAC6EB01B4</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50000</dataTypeSize>
+<ownDataTypeParameters>50000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_obra" id="F925F23B-380B-163A-CB89-C2FD8BC84834">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>17562BA6-99FA-DB8F-FC00-DB5814D1D123</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_lancamento" id="FCE2C6F3-4FEB-FC5A-A5EC-B58246859962">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>045F954B-4ECB-FB95-7032-883B31242240</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5613C18-983B-62A6-911D-C6CEE8010484" name="Obras_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-11-24 20:10:25 UTC</createdTime>
+<generatorID>4FFAE889-3201-30AD-482A-B44AE4633A70</generatorID>
+<ownerDesignName>modelagem_biblioteca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49A901D0-BBFE-5424-C52E-30F2C62B9E89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
